@@ -28,7 +28,7 @@ source venv/bin/activate
 # install required packages for the project to run
 pip install -r requirements.txt
 
-python migrate db upgrade
+python migrate.py db upgrade
 python run.py
 ```
 
